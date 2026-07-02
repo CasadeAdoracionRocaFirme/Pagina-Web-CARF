@@ -5,7 +5,7 @@ const Inicio = () => {
     <>
     <main className="contenido">
       <video autoPlay muted loop playsInline className="video-bg">
-        <source src="/video3.mp4" type="video/mp4" />
+        <source src="/video.mp4" type="video/mp4" />
       </video>
 
       <div className="overlay">
