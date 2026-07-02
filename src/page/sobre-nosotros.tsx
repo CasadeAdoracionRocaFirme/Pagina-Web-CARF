@@ -18,12 +18,12 @@ const Nosotros  = () => {
             </p>
             <div className='mision-vision'>
                 <div className='mision'>
-                <h2>Nuestra Mision</h2>
+                <h2>Nuestra Misión</h2>
                 <p>Establecer el reino de <i>Cristo</i>, proclamar el evangelio llevando las buenas de salvación y hacer discipulos como 
                 como lo dejo estipulado Jesús, mostrando con hechos y palabras el amor de <i>Cristo</i> através de un trabajo hecho con exelencia y guiados por el espíritu Santo, usando las herramientas que Dios nos ha dado.</p>
             </div>
             <div className='vision'>
-                <h2>Nuestra Vision</h2>
+                <h2>Nuestra Visión</h2>
                 <p>Hacer una obra completa y duradera en el corazón de cada vida necesitada usando como principal herramienta la palabra de Dios.
                     Ser una casa de restauación donde las familias sean guiadas, direccionadas y fundamentadas en la roca que <i>Cristo</i>.
                     Ser una iglesia que honra a Dios y ame la comunidad y trabaje en pos de ella.
