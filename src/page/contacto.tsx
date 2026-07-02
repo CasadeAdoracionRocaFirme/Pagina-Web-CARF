@@ -32,12 +32,12 @@ const Contacto = () => {
         <main className='contacto'>
             <h1>~ Contacto ~</h1>
 
-            <p>¿Estas solicitando oracion?</p>
+            <p>¿Estas solicitando oración?</p>
 
             <p>
                 Queremos saber de ti ponte en contacto con nosotros
                 <br />
-                <span>O acercate a nuestro lugar de Reunion</span>
+                <span>O acercate a nuestro lugar de Reunión</span>
             </p>
 
             <div className='contenedor-contacto'>
@@ -74,7 +74,7 @@ const Contacto = () => {
                     </label>
 
                     <label htmlFor="peticion">
-                        Dejanos saber tu peticion
+                        Dejanos saber tu petición
                         <br />
                         <textarea
                             id="peticion"

@@ -5,7 +5,7 @@ const Footer = () => {
         <footer >
             <div className="footer">
                             <ul>
-                <h2>Navegacion</h2>
+                <h2>Navegación</h2>
                 <ul>
                     <li><a href="#Inicio">Inicio</a></li>
                     <li><a href="#SobreNosotros">Sobre Nosotros</a></li>
@@ -15,12 +15,12 @@ const Footer = () => {
                 </ul>
             </ul>
             <ul>
-                <h2>Informacion</h2>
+                <h2>Información</h2>
                 <li><p>Correo: </p>
                 <span>carfsanluis@gmail.com</span>
                 </li>
                 <li>
-                    <p>Direccion</p>
+                    <p>Dirección</p>
                     <span>Cra-3b #94-51 San Luis Barranquilla</span>
                 </li>
             </ul>
