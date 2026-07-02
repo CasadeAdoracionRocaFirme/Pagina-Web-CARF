@@ -127,27 +127,29 @@
     opacity:.9;
 }
 
-
+/* ===================== */
 /* TABLET */
+/* ===================== */
+
 @media (max-width: 1024px) {
+
+    .ministerios-mins {
+        padding: 40px 20px;
+    }
+
     .ministerios-mins h1 {
         font-size: 60px;
         text-align: center;
     }
 
     .ministerios-mins p {
-        font-size: 24px;
-        text-align: center;
+        font-size: 22px;
+        text-align: justify;
     }
 
     .content {
         justify-content: center;
-        gap: 30px;
-    }
-
-    .ministerios-mins ul {
-        justify-content: center;
-        gap: 20px;
+        gap: 25px;
     }
 
     .mins-contenedor {
@@ -155,12 +157,17 @@
     }
 
     .mins-contenedor img {
-        height: 340px;
+        height: 320px;
     }
+
 }
 
+/* ===================== */
 /* MÓVIL */
+/* ===================== */
+
 @media (max-width: 768px) {
+
     .ministerios-mins {
         padding: 30px 15px;
     }
@@ -171,45 +178,47 @@
     }
 
     .ministerios-mins p {
-        font-size: 18px;
-        text-align: center;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.8;
+        margin-bottom: 30px;
     }
 
     .content {
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
         gap: 25px;
     }
 
-    .ministerios-mins ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
     .mins-contenedor {
-        width: 90%;
+        width: 100%;
         max-width: 320px;
+        border-radius: 30px;
     }
 
     .mins-contenedor img {
-        height: 300px;
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+    }
+
+    .mins-info {
+        padding: 15px;
     }
 
     .mins-info h3 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .mins-info p {
-        font-size: .9rem;
-    }
-
-    .mins-overlay span {
-        font-size: 22px;
+        font-size: 0.9rem;
+        margin: 0;
     }
 
     .mins-overlay button {
+        padding: 12px 25px;
         font-size: 16px;
-        padding: 10px 20px;
     }
+
 }

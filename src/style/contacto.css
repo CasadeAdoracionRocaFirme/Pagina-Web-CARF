@@ -102,11 +102,19 @@
 @media (max-width: 1024px) {
     .contacto h1 {
         font-size: 60px;
+        text-align: center;
+    }
+
+    .contacto p {
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
     }
 
     .contenedor-contacto {
         flex-direction: column;
         gap: 40px;
+        align-items: center;
     }
 
     .contenedor-contacto form {
@@ -115,6 +123,11 @@
 
     .redes {
         width: 70%;
+    }
+
+    .redes ul {
+        justify-content: center;
+        gap: 20px;
     }
 }
 
@@ -133,7 +146,7 @@
     .contacto p {
         font-size: 16px;
         text-align: center;
-        padding: 15px;
+        padding: 10px;
     }
 
     .contenedor-contacto {
@@ -143,16 +156,32 @@
 
     .contenedor-contacto form {
         width: 90%;
+        padding: 15px;
         gap: 25px;
+    }
+
+    .contenedor-contacto input,
+    .contenedor-contacto textarea {
+        font-size: 16px;
     }
 
     .redes {
         width: 90%;
+        text-align: center;
     }
 
     .redes ul {
         flex-direction: column;
+        align-items: center;
         gap: 15px;
         padding: 0;
+    }
+
+    .redes h2 {
+        font-size: 20px;
+    }
+
+    .redes p {
+        font-size: 14px;
     }
 }
