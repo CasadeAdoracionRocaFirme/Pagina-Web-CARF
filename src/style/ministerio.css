@@ -1,0 +1,56 @@
+.ministerio {
+    padding: 20px;
+    min-height: 100vh;
+
+}
+
+.ministerios-mins {
+    background-color:   rgb(224, 222, 222);
+    padding-top: 20px;
+}
+
+.ministerio h1 {
+    font-size: 80px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #C9A227;
+}
+
+.ministerio h2 {
+    font-size: 40px;
+    color: #C9A227;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+.ministerio-contenido {
+    display: flex;
+    justify-content: space-around;
+}
+.ministerio-contenido img {
+    height: 80vh;
+    max-width: 50%;
+}
+
+.ministerio-contenido p {
+    padding: 20px;
+    font-size: 25px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    width: 50%;
+}
+
+.ministerio p {
+    font-size: 25px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+}

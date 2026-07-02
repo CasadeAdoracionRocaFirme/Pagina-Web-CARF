@@ -1,0 +1,49 @@
+.nosotros {
+    padding-top: 50px;
+    background-color:   rgb(241, 239, 239);
+}
+
+.nosotros h1 {
+    font-size: 80px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #C9A227;
+  padding: 30px;
+}
+.nosotros p {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+    padding: 30px;
+}
+
+.mision-vision {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 10px;
+}
+
+.mision-vision h2 {
+    font-size: 40px;
+    color: #C9A227;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #fff;
+    border-bottom: 2px solid #C9A227;
+}
+
+.mision-vision p {
+    
+    font-size: 25px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+}
