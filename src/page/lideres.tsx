@@ -1,53 +1,6 @@
 import '../style/lideres.css'
 
 const Lideres = () => {
-    const lideres = [
-        {
-            nombre: 'Jose',
-            cargo: 'Caballeros',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        },
-        {
-            nombre: 'Anibal',
-            cargo: 'Diaconos',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        },
-        {
-            nombre: 'Claudia',
-            cargo: 'Damas',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        },
-        {
-            nombre: 'Josefina',
-            cargo: 'Niños',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        },
-        {
-            nombre: 'Maria',
-            cargo: 'Ancianos',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        },
-        {
-            nombre: 'Estefani',
-            cargo: 'Evangelismo',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        },
-        {
-            nombre: 'Camilo',
-            cargo: 'Musica',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        },
-        {
-            nombre: 'Jorge',
-            cargo: 'Audiovisuales',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        },
-        {
-            nombre: 'edinson',
-            cargo: 'Jovenes',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
-        }
-    ]
     return (
         <main className='lideres'>
             
