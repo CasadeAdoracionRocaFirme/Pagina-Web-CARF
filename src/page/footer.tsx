@@ -7,17 +7,17 @@ const Footer = () => {
                             <ul>
                 <h2>Navegacion</h2>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Sobre Nosotros</li>
-                    <li>Ministerios</li>
-                    <li>Lideres</li>
-                    <li>Contacto</li>
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#SobreNosotros">Sobre Nosotros</a></li>
+                    <li><a href="#Ministerios">Ministerios</a></li>
+                    <li><a href="#Lideres">Lideres</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
                 </ul>
             </ul>
             <ul>
                 <h2>Informacion</h2>
                 <li><p>Correo: </p>
-                <span>Rocafirma@email.com</span>
+                <span>carfsanluis@gmail.com</span>
                 </li>
                 <li>
                     <p>Direccion</p>

@@ -94,7 +94,7 @@ const Contacto = () => {
                     <h2>Redes</h2>
 
                     <ul>
-                        <a href="https://wa.me/573043711274" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/573006708861" target="_blank" rel="noopener noreferrer">
                             <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp" />
                         </a>
 
