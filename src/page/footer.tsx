@@ -21,7 +21,7 @@ const Footer = () => {
                 </li>
                 <li>
                     <p>Direccion</p>
-                    <span>Calle 23 #124 San Luis Barranquilla</span>
+                    <span>Cra-3b #94-51 San Luis Barranquilla</span>
                 </li>
             </ul>
             <div>
