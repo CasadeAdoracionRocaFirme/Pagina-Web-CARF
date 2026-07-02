@@ -48,17 +48,29 @@ const Header = () => {
                         <ul className="mins">
 
                             <li onClick={() => navigate("/Damas")}>Damas</li>
+                            <hr />
                             <li onClick={() => navigate("/Caballeros")}>Caballeros</li>
+                            <hr />
                             <li onClick={() => navigate("/Jovenes")}>Jóvenes</li>
+                            <hr />
                             <li onClick={() => navigate("/Niños")}>Niños</li>
+                            <hr />
                             <li onClick={() => navigate("/Alabanza")}>Alabanza</li>
+                            <hr />
                             <li onClick={() => navigate("/Consolidación")}>Consolidación</li>
+                            <hr />
                             <li onClick={() => navigate("/Servidores")}>Servidores</li>
+                            <hr />
                             <li onClick={() => navigate("/Oración")}>Oración</li>
+                            <hr />
                             <li onClick={() => navigate("/Protocolo")}>Protocolo</li>
+                            <hr />
                             <li onClick={() => navigate("/Familias")}>Familias</li>
+                            <hr />
                             <li onClick={() => navigate("/Parejas")}>Parejas</li>
+                            <hr />
                             <li onClick={() => navigate("/Danza")}>Danza</li>
+                            <hr />
                             <li onClick={() => navigate("/Casas_de_Oración")}>Casas de Oración</li>
 
                         </ul>
