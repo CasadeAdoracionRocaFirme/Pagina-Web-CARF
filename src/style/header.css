@@ -11,6 +11,11 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .header-ul{
@@ -64,4 +69,57 @@
 .list {
   white-space: nowrap;
   cursor: pointer;
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header-ul {
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .siglas {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .header-ul {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .logo {
+        gap: 5px;
+    }
+
+    .siglas {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* dropdown más usable en móvil */
+    .mins {
+        position: static;
+        box-shadow: none;
+        border: none;
+        padding: 5px 0;
+    }
 }

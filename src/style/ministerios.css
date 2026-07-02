@@ -126,3 +126,90 @@
     font-size:.95rem;
     opacity:.9;
 }
+
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .ministerios-mins h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .ministerios-mins p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .content {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .ministerios-mins ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .mins-contenedor {
+        width: 240px;
+    }
+
+    .mins-contenedor img {
+        height: 340px;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+    .ministerios-mins {
+        padding: 30px 15px;
+    }
+
+    .ministerios-mins h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .ministerios-mins p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .ministerios-mins ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mins-contenedor {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .mins-contenedor img {
+        height: 300px;
+    }
+
+    .mins-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .mins-info p {
+        font-size: .9rem;
+    }
+
+    .mins-overlay span {
+        font-size: 22px;
+    }
+
+    .mins-overlay button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

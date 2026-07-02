@@ -35,3 +35,46 @@ footer {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
 }
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .footer {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .footer div {
+        width: 45%;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .footer div {
+        width: 100%;
+    }
+
+    .footer h2 {
+        font-size: 20px;
+    }
+
+    .footer li,
+    .footer p {
+        font-size: 1rem;
+    }
+
+    .copy {
+        font-size: 0.95rem;
+        padding: 20px;
+    }
+}

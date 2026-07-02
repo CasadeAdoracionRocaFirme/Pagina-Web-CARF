@@ -47,3 +47,67 @@
     font-style: normal;
     color: black;
 }
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .nosotros h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .nosotros p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .mision-vision {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .mision-vision h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .mision-vision p {
+        font-size: 20px !important;
+        text-align: justify;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+    .nosotros {
+        padding-top: 30px;
+    }
+
+    .nosotros h1 {
+        font-size: 40px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .nosotros p {
+        font-size: 18px;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .mision-vision {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .mision-vision h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .mision-vision p {
+        font-size: 16px !important;
+        text-align: justify;
+    }
+}

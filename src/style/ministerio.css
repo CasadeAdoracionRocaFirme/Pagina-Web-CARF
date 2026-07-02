@@ -54,3 +54,68 @@
     font-style: normal;
     color: black;
 }
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .ministerio h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .ministerio h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .ministerio-contenido {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .ministerio-contenido img {
+        height: auto;
+        max-width: 80%;
+    }
+
+    .ministerio-contenido p {
+        width: 90%;
+        font-size: 20px !important;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+    .ministerio {
+        padding: 10px;
+    }
+
+    .ministerio h1 {
+        font-size: 40px;
+    }
+
+    .ministerio h2 {
+        font-size: 24px;
+    }
+
+    .ministerio-contenido {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .ministerio-contenido img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .ministerio-contenido p {
+        width: 100%;
+        font-size: 18px !important;
+        padding: 10px;
+    }
+
+    .ministerio p {
+        font-size: 18px !important;
+    }
+}

@@ -97,3 +97,62 @@
     font-weight: weight;
     font-style: normal;
 }
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .contacto h1 {
+        font-size: 60px;
+    }
+
+    .contenedor-contacto {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contenedor-contacto form {
+        width: 70%;
+    }
+
+    .redes {
+        width: 70%;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+    .contacto {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .contacto h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .contacto p {
+        font-size: 16px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .contenedor-contacto {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contenedor-contacto form {
+        width: 90%;
+        gap: 25px;
+    }
+
+    .redes {
+        width: 90%;
+    }
+
+    .redes ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
+}
