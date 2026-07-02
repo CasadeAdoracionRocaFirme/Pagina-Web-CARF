@@ -54,19 +54,19 @@ function App () {
     <ScrollToTop />
     <Routes>
       <Route path='/*' element={<Home />}/>
-      <Route path='/Damas' element={<Damas />}/>
-      <Route path='/Caballeros' element={<Caballeros />}/>
-      <Route path='/Jovenes' element={<Jovenes />}/>
-      <Route path='/Niños' element={<Niños />}/>
-      <Route path='/Oración' element={<Oración />}/>
-      <Route path='/Casas_de_Oración' element={<Casas_de_Oración />}/>
-      <Route path='/Consolidación' element={<Consolidación />}/>
-      <Route path='/Danza' element={<Danza />}/>
-      <Route path='/Alabanza' element={<Alabanza />}/>
-      <Route path='/Familias' element={<Familias />}/>
-      <Route path='/Parejas' element={<Parejas />}/>
-      <Route path='/Protocolo' element={<Protocolo />}/>
-      <Route path='/Servidores' element={<Servidores />}/>
+      <Route path='/#/Damas' element={<Damas />}/>
+      <Route path='/#/Caballeros' element={<Caballeros />}/>
+      <Route path='/#/Jovenes' element={<Jovenes />}/>
+      <Route path='/#/Niños' element={<Niños />}/>
+      <Route path='/#/Oración' element={<Oración />}/>
+      <Route path='/#/Casas_de_Oración' element={<Casas_de_Oración />}/>
+      <Route path='/#/Consolidación' element={<Consolidación />}/>
+      <Route path='/#/Danza' element={<Danza />}/>
+      <Route path='/#/Alabanza' element={<Alabanza />}/>
+      <Route path='/#/Familias' element={<Familias />}/>
+      <Route path='/#/Parejas' element={<Parejas />}/>
+      <Route path='/#/Protocolo' element={<Protocolo />}/>
+      <Route path='/#/Servidores' element={<Servidores />}/>
     </Routes>
     </>
   )
