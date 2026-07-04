@@ -15,13 +15,17 @@
     width: 95%;
 }
 
-.header-ul{
+.header-ul, .header a{
     display: flex;
     gap: 20px;  
-    list-style: none;  
+    list-style: none !important;  
     color: #fff;
     font-size: 20px;
     font-weight: 300;
+}
+
+.header li, .header a{
+    list-style: none;
 }
 .siglas {
     width: 50px;

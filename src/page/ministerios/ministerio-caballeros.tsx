@@ -9,7 +9,7 @@ const Caballeros = () => {
 
 A través de la enseñanza bíblica, la oración y la comunión, este ministerio fortalece a cada hombre para que crezca espiritualmente y asuma su rol como sacerdote de su hogar, sirviendo con amor, humildad y convicción.</p>
             <div className='ministerio-contenido'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s" alt="" />
+            <img src="/img/caballeros.jpeg" alt="Caballeros" />
 
             <p>Creemos que un hombre transformado por Cristo puede impactar positivamente su entorno y ser un instrumento de bendición en su comunidad.
 

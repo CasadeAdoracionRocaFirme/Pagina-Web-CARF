@@ -31,11 +31,11 @@ const Header = () => {
                         setMenuAbierto(false);
                     }}
                 >
-                    Hogar
+                    <a href="#Hogar">Hogar</a>
                 </li>
 
                 <li className="list">
-                    Sobre Nosotros
+                    <a href="#Nosotros">Sobre Nosotros</a>
                 </li>
 
                 <li
@@ -85,7 +85,7 @@ const Header = () => {
                         setMenuAbierto(false);
                     }}
                 >
-                    Contacto
+                    <a href="#Contacto">Contacto</a>
                 </li>
 
             </ul>

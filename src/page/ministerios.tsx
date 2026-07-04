@@ -11,7 +11,7 @@ const Ministerios = () => {
         },
         {
             ministerio: 'Caballeros',
-            imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1cbTQhT-TmZzQhEmI_d1quSa17wxhBhBdAg&s'
+            imagen: '/img/caballeros.jpeg'
         },
         {
             ministerio: 'Jovenes',
