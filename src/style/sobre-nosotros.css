@@ -28,7 +28,7 @@
     padding: 10px;
 }
 
-.mision-vision h2 {
+ .nosotros h2 {
     font-size: 40px;
     color: #C9A227;
     font-family: "Playfair Display", serif;
@@ -48,10 +48,39 @@
     color: black;
 }
 
+.historia{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+}
+.historia div {
+    width: 48%;
+}
+.historia img {
+    width: 500px;
+    height: 400px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valores {
+    display: flex;
+    gap: 12px;
+    padding: 20px;
+}
+.valores p {
+    
+    font-size: 20px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+}
 
-/* ===================== */
-/* TABLET */
-/* ===================== */
+
 
 @media (max-width: 1024px) {
 
@@ -95,11 +124,38 @@
         font-size: 20px !important;
         text-align: justify;
     }
+    .historia {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .historia div {
+        width: 100%;
+    }
+
+    .historia img {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+
+    /* VALORES */
+
+    .valores {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .valores p {
+        font-size: 18px !important;
+        padding: 10px 0;
+    }
 }
 
-/* ===================== */
-/* MÓVIL */
-/* ===================== */
+
 
 @media (max-width: 768px) {
 
@@ -147,5 +203,33 @@
         font-size: 16px !important;
         text-align: justify;
         padding: 10px 0;
+    }
+     .historia {
+        flex-direction: column;
+        padding: 20px 10px;
+        gap: 25px;
+    }
+
+    .historia div {
+        width: 100%;
+    }
+
+    .historia img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* VALORES */
+
+    .valores {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .valores p {
+        font-size: 16px !important;
+        padding: 0;
     }
 }

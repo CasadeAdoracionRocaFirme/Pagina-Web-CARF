@@ -21,12 +21,15 @@ import Parejas from './page/ministerios/ministerio-parejas'
 import Protocolo from './page/ministerios/ministerio-protocolo'
 import Servidores from './page/ministerios/ministerio-servidores'
 import ScrollToTop from './scrollToTop'
+import ModalBienvenida from './page/ModalBienvenida'
 
 
 function Home() {
 
   return (
     <>
+    <ModalBienvenida />
+
     <Header></Header>
     <section id='Inicio'>
       <Inicio></Inicio>

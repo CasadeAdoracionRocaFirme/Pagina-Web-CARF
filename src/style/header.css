@@ -142,31 +142,45 @@
 
     .header-ul.activo{
         display:flex;
+
     }
 
     .header li{
         width:100%;
-        text-align:center;
+        text-align: start;
         cursor:pointer;
     }
 
     .ministerios{
+        text-align: start;
         border:none;
+        position: relative;
+        cursor: pointer;
     }
 
-    .mins{
-        position:static;
-        width:100%;
-        background:#fff;
-        box-shadow:none;
-        border:none;
-        border-radius:0;
-        margin-top:15px;
-    }
+.mins{
+    position: static;
+    width: 100%;
+    background: #fff;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 0;
 
-    .mins li{
-        padding:10px;
-        font-size: 10px;
-    }
+    max-height: 250px;   /* altura máxima */
+    overflow-y: auto;    /* aparece scroll */
+}
+
+.mins li{
+    padding: 14px;
+    font-size: 16px;
+    color:#C9A227;
+    border-bottom:1px solid #eee;
+}
+
+.mins hr{
+    display:none;
+}
 
 }
