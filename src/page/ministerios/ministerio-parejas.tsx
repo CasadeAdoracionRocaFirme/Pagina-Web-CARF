@@ -2,7 +2,7 @@ const Parejas = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Parejas</h2>
 
             <p>El Ministerio de Parejas de la Casa de Adoración Roca Firme tiene como propósito fortalecer las relaciones matrimoniales y de noviazgo bajo los principios de la Palabra de Dios, guiando a cada pareja a construir vínculos sanos, sólidos y centrados en Cristo. Creemos que Dios es el fundamento del amor verdadero y que toda relación debe ser edificada sobre Su voluntad.

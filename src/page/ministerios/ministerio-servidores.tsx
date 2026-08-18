@@ -2,7 +2,7 @@ const Servidores = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Servidores</h2>
 
             <p>El Ministerio de Servidores de la Casa de Adoración Roca Firme tiene como propósito apoyar el desarrollo de cada reunión y actividad de la iglesia, sirviendo con amor, excelencia y compromiso en cada área donde se requiera. Creemos que el servicio es una expresión de adoración a Dios y una forma práctica de reflejar el carácter de Cristo.</p>

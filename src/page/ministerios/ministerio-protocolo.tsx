@@ -2,7 +2,7 @@ const Protocolo = () => {
     return (
         
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Protocolo</h2>
 
             <p>El Ministerio de Protocolo de la Casa de Adoración Roca Firme tiene como propósito brindar una atención ordenada, cordial y respetuosa a cada persona que ingresa a la iglesia, asegurando que todos se sientan bienvenidos y en un ambiente de paz y armonía. Entendemos que cada detalle cuenta para reflejar el amor de Cristo desde el primer contacto.

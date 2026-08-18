@@ -2,7 +2,7 @@ const Oración = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Oración</h2>
 
             <p>El Ministerio de Oración de la Casa de Adoración Roca Firme tiene como propósito interceder constantemente por la iglesia, las familias, la comunidad y las necesidades de cada persona, creyendo firmemente en el poder de Dios para transformar toda situación. Entendemos que la oración es la base de nuestra vida cristiana y la herramienta principal para mantener una relación íntima con el Señor.

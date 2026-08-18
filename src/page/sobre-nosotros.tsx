@@ -4,33 +4,32 @@ const Nosotros  = () => {
     return (
         <>
         <main className="nosotros">
-            <h1>¿ Quienes Somos ?</h1>
+            <div className='d-flex'>
+            <section className='derecha'>
+            <h1>Fundamentados en 
+                <br />
+                la Verdad de Dios
+                </h1>
             <p>
-                <strong>Casa De Adoración Roca Firme</strong>, 
-
-                es una iglesia comprometida con la enseñanza fiel de la <strong>Palabra de Dios</strong>, 
-                la cual reconocemos como nuestra máxima autoridad en doctrina, fe y conducta. 
-                Creemos en el poder transformador del <strong>Espíritu Santo</strong> y en la formación del carácter 
-                de  <strong><i>Cristo</i></strong> en cada creyente, promoviendo una vida de obediencia, santidad y servicio.
-                <br />
-                Permanecemos firmes en la sana doctrina, rechazando toda enseñanza que se aparte 
-                de <i>las Escrituras y del propósito que Dios ha establecido para su Iglesia</i>. 
-                Nuestra misión es cumplir la Gran Comisión dada por <strong><i>Jesucristo</i></strong>: evangelizar 
-                y hacer discípulos, llevando el mensaje de salvación a todas las personas y 
-                formando vidas fundamentadas en la verdad de Dios.
-                
-                <br />
-
-
-            <span style={{borderBottom:'2px solid black'}}><i>"Por tanto, id, y haced discípulos a todas las naciones..."</i></span>
-            <br />
-                Mateo 28:19-20; Marcos 16:15-16; Lucas 24:47
+                Casa De Adoración Roca Firme, es una iglesia comprometida con la enseñanza fiel de la Palabra de Dios, la cual reconocemos como nuestra máxima autoridad en doctrina, fe y conducta. Creemos en el poder transformador del Espíritu Santo y en la formación del carácter de Cristo en cada creyente, promoviendo una vida de obediencia, santidad y servicio. 
+                Permanecemos firmes en la sana doctrina, rechazando toda enseñanza que se aparte de las Escrituras. Nuestra misión es cumplir la Gran Comisión dada por Jesucristo: evangelizar y hacer discípulos.
             </p>
+            
+            <p className='cita'><i>"Por tanto, id, y haced discípulos a todas las naciones..."</i>
+            <br />
+                <span>Mateo 28:19-20; Marcos 16:15-16; Lucas 24:47</span>
+            </p>
+            </section>
+            <section className='izquierda'>
+                <img src="/img/iglesia.png" alt="foto de la congregacion" />
+            </section>
+            </div>
             <div className='mision-vision'>
                 <div className='mision'>
                 <h2>Nuestra Misión</h2>
+                <h3>Establecer el Reino de Cristo</h3>
                 <p>
-                    Establecer el Reino de <strong>Cristo</strong>, proclamando el Evangelio y llevando las buenas nuevas de salvación. 
+                    Proclamando el Evangelio y llevando las buenas nuevas de salvación. 
                     <br />
                     Cumplimos el mandato de Jesús de hacer discípulos, reflejando su amor con hechos y palabras, 
                     mediante un servicio de excelencia, guiados por el Espíritu Santo y utilizando los dones y 
@@ -40,56 +39,91 @@ const Nosotros  = () => {
             </div>
             <div className='vision'>
                 <h2>Nuestra Visión</h2>
+                <h3>Una obra completa y duradera</h3>
                 <p>
-                    Realizar una obra completa y duradera en el corazón de cada persona mediante el poder transformador 
-                    de la Palabra de Dios. 
                     <br />
                     Ser una casa de restauración donde las familias sean guiadas, fortalecidas y fundamentadas sobre la 
-                    roca que es <strong>Cristo</strong>. Asimismo, ser una iglesia que honra a Dios, ama a su comunidad 
+                    roca que es Cristo. Asimismo, ser una iglesia que honra a Dios, ama a su comunidad 
                     y trabaja con compromiso por su bienestar.
                 </p>
             </div>
             </div>
 
             
-            <section>
-                <h1>~ Nuestra Historia ~</h1>
+            <section className='nuestra-historia'>
+                <h4>Nuestra Historia</h4>
+                <h1>De Generación en Generación</h1>
+                
                 <div className='historia'>
+                    <p>
+                        La Iglesia Cristiana ~Casa de Adoración Roca Firme~ nació en el corazón de Dios 
+                        y fue tomando forma poco a poco, a través de la fe, la oración y la disposición 
+                        de muchas personas que creyeron que Dios tenía un propósito con este lugar.</p>
                     <div className='image'>
-                        <img src="https://scontent.fbaq8-1.fna.fbcdn.net/v/t39.30808-6/738368291_1067974478896985_5922876114096993898_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s1200x1600&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHr5eJWPOY9zrmlfpjOVMD1rl07V35NC5muXTtXfk0LmWN4T5pPOqQg2yS4RI0xv1gfW6WfMdTkEui4GxnB71aQ&_nc_ohc=tn8XJeVMqYoQ7kNvwEmagRg&_nc_oc=AdonCsPFfSPyhnkuZKV8b4QQHg8wU5-JzCCMsEMF4g4nMb2o-L9d_Jm25aGFiGvUQbNyDcMuhGhQ5xppd0Hv0OuG&_nc_zt=23&_nc_ht=scontent.fbaq8-1.fna&_nc_gid=mwiU77FUSHW3fJl2quTw3Q&_nc_ss=7b2a8&oh=00_AQAvKSedhEGKP21ILOv3Pmiieu6B0BefcrOsjEzzvZnDnA&oe=6A5D693A" alt="img1" />
+                        <img src="/img/2020.jpg" alt="iglesia en 2020" />
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quod ad cupiditate veritatis commodi laudantium minima, ut vero fuga nisi recusandae consectetur nihil, non voluptatum animi, praesentium aut autem. Id.</p>
+                        <p>
+                            Todo comenzó en enero de 2015, cuando iniciamos como una casa de amor (célula) en 
+                            el hogar de la familia del hermano "Andrés Sánchez". 
+                            <br />
+                            <br />
+                            Era un espacio sencillo, pero lleno de entusiasmo y del deseo de compartir la Palabra de Dios con otras personas. 
+                            Allí comenzaron nuestras primeras reuniones, donde orábamos, adorábamos, estudiábamos 
+                            la Biblia y, sobre todo, buscábamos que más personas pudieran conocer a Cristo.
+                            <br />
+                            <br />
+                            Con el paso del tiempo, otros hermanos y simpatizantes también abrieron las puertas 
+                            de sus hogares. Así comenzó una etapa muy especial para nosotros: la iglesia se fue 
+                            moviendo de casa en casa.
+                            Así comenzó una etapa muy especial para nosotros: la iglesia se fue moviendo de casa 
+                            en casa. 
+                            <br />
+                            <br />
+                            Cada hogar se convirtió en un lugar de encuentro, de oración y de enseñanza.
+                            No teníamos un templo, pero teníamos algo mucho más importante: el deseo de seguir 
+                            adelante y la certeza de que Dios estaba guiando cada paso.
+                        </p>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sed cum id et soluta itaque, omnis ut perferendis natus consequuntur nostrum dolorum vitae ea quidem quibusdam temporibus iste expedita amet.</p>
+                        <p>
+                            Al principio nos reuníamos un día a la semana. Después, a medida que el grupo fue 
+                            creciendo y el deseo de buscar más de Dios aumentaba, pasamos a reunirnos dos días, 
+                            luego tres días a la semana, incluyendo un día especial de ayuno y oración.
+                            <br />
+                            <br />
+                            Fueron años de aprendizaje, esfuerzo y crecimiento. También hubo momentos difíciles y 
+                            muchas cosas que resolver, pero cada dificultad nos enseñó a depender más de Dios. 
+                            Mirando atrás, podemos ver cómo Él fue preparando el camino aun cuando nosotros no 
+                            sabíamos exactamente hacia dónde nos estaba llevando.
+                            <br />
+                            <br />
+                            Después de aproximadamente dos años y medio reuniéndonos en diferentes casas, llegó 
+                            uno de los momentos más importantes de nuestra historia: alquilar un lugar para poder 
+                            congregarnos de manera permanente.
+                            <br />
+                            <br />
+                            No era un lugar grande ni perfecto, pero para nosotros representaba mucho. Era fruto 
+                            de la oración, del trabajo y de la perseverancia de todos aquellos que habían creído 
+                            en este proyecto desde el principio. Con el tiempo, ese lugar también comenzó a 
+                            quedarse pequeño, y poco a poco hemos ido haciendo mejoras y ampliaciones para recibir
+                             a más personas y continuar desarrollando la obra que Dios nos ha encomendado.
+                        </p>
                     </div>
                     <div className='image'>
-                        <img src="https://scontent.fbaq8-1.fna.fbcdn.net/v/t39.30808-6/721369266_1053596070334826_6950011093346888250_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s1638x2048&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEMvL_i6yw_J0CRYzbrA8Xrf-Nl9kkhpqh_42X2SSGmqBVYqb0rlVXMq70FxvLWJwNmBH0Hz3U99hTFVB3qPlVY&_nc_ohc=kuuiWLQD1YkQ7kNvwHIcppW&_nc_oc=AdopW06dByAVV065WImpJQTNpr6ASwfXPqVm6uYxmWHcH8fD3Npl8b0eZrNAKbusfdPdvNZ_lqGYHly432j4Kb1X&_nc_zt=23&_nc_ht=scontent.fbaq8-1.fna&_nc_gid=b5Kf5yVMZvS1cexe3A42_A&_nc_ss=7b2a8&oh=00_AQBL3NwrIw6H20VJwcvOwucmRRTjKeyXqz9AQjy0LYrkwQ&oe=6A5D7937" alt="img2" />
+                        <img src="/img/2020-2.jpeg" alt="iglesia actual" />
                     </div>
+                        <p>
+                            Hoy todavía no contamos con un templo propio, pero seguimos creyendo que llegará 
+                            ese día. Oramos, trabajamos y confiamos en Dios, sabiendo que cada etapa tiene su 
+                            propósito y que todo sucede en su tiempo.
+                            <br />
+                            <br />
+                            Seguimos caminando con la misma esperanza con la que comenzamos: alcanzar almas para 
+                            Cristo, enseñar la Palabra de Dios, formar familias en la fe y ser una iglesia que 
+                            refleje el amor de Jesús.
+                        </p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit officiis perferendis commodi earum magnam consequuntur incidunt veniam inventore laboriosam possimus minus omnis eius harum, quod exercitationem. Doloremque voluptates nisi ad.</p>
-            </section>
-
-            <section>
-                <main className='valores'>
-                    <div>
-                        <h2>Comunión</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae ducimus perspiciatis mollitia ipsam nisi odio veniam</p>
-                    </div>
-                    <div>
-                        <h2>Comunión</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae ducimus perspiciatis mollitia ipsam nisi odio veniam</p>
-                    </div>
-                    <div>
-                        <h2>Comunión</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae ducimus perspiciatis mollitia ipsam nisi odio veniam</p>
-                    </div>
-                    <div>
-                        <h2>Comunión</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae ducimus perspiciatis mollitia ipsam nisi odio veniam</p>
-                    </div>
-                </main>
             </section>
         </main>
         </>

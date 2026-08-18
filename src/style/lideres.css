@@ -1,6 +1,5 @@
 .lideres {
-    padding-top: 50px;
-    background-color:   rgb(241, 239, 239);
+    background-color:   #b09718d0;
     min-height: 100vh;
 }
 
@@ -8,19 +7,19 @@
   font-size: 80px;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 400;
   font-style: normal;
-  color: #C9A227;
+  color: #fff;
 }
 
-.lideres h2 {
+/* .lideres h2 {
     font-size: 25px;
-    color: #C9A227;
+    color: #fff;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: 400;
     font-style: normal;
-}
+} */
 
 .contenedor-principal {
     max-width: 1400px;
@@ -28,37 +27,38 @@
     padding: 0 40px;
 }
 .pastores {
-    background: #fff;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.08);
-    border-top: 5px solid #C9A227;
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
 .contenedor-principal h2 {
     font-size: 3rem;
-    color: #C9A227;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 25px;
+}
+
+.contenedor-principal h3 {
+    font-size: 2rem;
+    color: #fff;
     font-family: "Playfair Display", serif;
     margin-bottom: 25px;
 }
 
 .pastores img {
-    height: 500px;
-
-    border-radius: 15px;
+    height: 100%;
+    width: 500px;
     margin-bottom: 25px;
 }
 
 .pastores p {
     font-size: 20px !important;
-    font-family: "Poppins", sans-serif;
+    font-family: Georgia;
     font-weight: 200;
     font-style: normal;
-    color: black;
+    color: #fff;
     text-align: justify;
 }
 
@@ -107,25 +107,28 @@
     height: 130px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #C9A227;
+    border: 4px solid #b09718d0;
     margin-bottom: 15px;
 }
 
 
-/* ===================== */
-/* TABLET */
-/* ===================== */
+/* ===========================
+   TABLETS (992px y menos)
+=========================== */
+@media (max-width: 992px) {
 
-@media (max-width: 1024px) {
+    .lideres {
+        padding: 70px 0;
+    }
 
     .lideres h1 {
-        font-size: 60px;
+        font-size: 55px;
         text-align: center;
     }
 
     .contenedor-principal {
-        margin: 50px auto;
-        padding: 0 20px;
+        margin: 60px auto;
+        padding: 0 30px;
     }
 
     .contenedor-principal h2 {
@@ -133,68 +136,132 @@
         text-align: center;
     }
 
+    .contenedor-principal h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
     .pastores {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        padding: 30px;
+        flex-direction: column;
+        gap: 35px;
     }
 
     .pastores img {
         width: 100%;
         max-width: 450px;
         height: auto;
-        margin: 0 auto;
     }
 
     .pastores p {
         font-size: 18px !important;
+        line-height: 1.8;
     }
 
+    .demas {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
 }
 
-/* ===================== */
-/* MÓVIL */
-/* ===================== */
 
+/* ===========================
+   CELULARES (768px y menos)
+=========================== */
 @media (max-width: 768px) {
 
     .lideres {
-        padding: 30px 0;
+        padding: 60px 0;
     }
 
     .lideres h1 {
-        font-size: 40px;
+        font-size: 38px;
+        line-height: 1.2;
         text-align: center;
     }
 
     .contenedor-principal {
-        padding: 0 15px;
-        margin: 30px auto;
+        margin: 40px auto;
+        padding: 0 20px;
     }
 
     .contenedor-principal h2 {
         font-size: 2rem;
-        text-align: center;
+    }
+
+    .contenedor-principal h3 {
+        font-size: 1.5rem;
     }
 
     .pastores {
-        grid-template-columns: 1fr;
-        padding: 20px;
-        gap: 20px;
+        flex-direction: column;
+        gap: 25px;
     }
 
     .pastores img {
         width: 100%;
         max-width: 320px;
         height: auto;
-        margin: 0 auto;
-        display: block;
     }
 
     .pastores p {
         font-size: 16px !important;
-        text-align: justify;
         line-height: 1.8;
+        text-align: justify;
     }
 
+    .demas {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .demas li {
+        height: auto;
+        min-height: 220px;
+        padding: 25px 20px;
+    }
+
+    .demas img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+/* ===========================
+   CELULARES PEQUEÑOS (480px)
+=========================== */
+@media (max-width: 480px) {
+
+    .lideres h1 {
+        font-size: 30px;
+    }
+
+    .contenedor-principal {
+        padding: 0 15px;
+    }
+
+    .contenedor-principal h2 {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-principal h3 {
+        font-size: 1.3rem;
+    }
+
+    .pastores img {
+        max-width: 280px;
+    }
+
+    .pastores p {
+        font-size: 15px !important;
+    }
+
+    .demas li {
+        padding: 20px 15px;
+    }
+
+    .demas img {
+        width: 100px;
+        height: 100px;
+    }
 }

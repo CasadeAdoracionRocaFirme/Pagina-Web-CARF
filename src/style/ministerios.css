@@ -4,20 +4,21 @@
 }
 
 .ministerios-mins h1{
-    font-size:80px;
+    font-size:60px;
     font-family:"Playfair Display",serif;
-    color:#C9A227;
-    text-align:center;
+    color:#b09718d0;
     margin-bottom:20px;
 }
 
+
 .ministerios-mins p{
-    font-size:30px;
-    font-family:"Poppins",sans-serif;
+    font-size:20px;
+    font-family:Georgia;
     font-weight:300;
     color:#000;
     margin-bottom:40px;
     line-height:1.7;
+    text-align: center;
 }
 
 .ministerios-mins ul{
@@ -117,11 +118,9 @@
 
 .mins-contenedor{
     flex:0 0 280px;
-
+    min-width: 280px;
     position:relative;
     overflow:hidden;
-
-    border-radius:140px 140px 20px 20px;
 
     background:#fff;
 
@@ -141,7 +140,7 @@
 
 .mins-contenedor img{
     width:100%;
-    height:380px;
+    height:400px;
 
     object-fit:cover;
 
@@ -181,7 +180,7 @@
 }
 
 .mins-overlay button{
-    background:#C9A227;
+    background:#b09718d0;
     color:#fff;
 
     border:none;
@@ -200,7 +199,7 @@
 
 .mins-overlay button:hover{
     background:#fff;
-    color:#C9A227;
+    color:#b09718d0;
 }
 
 /* ========================= */
@@ -208,7 +207,7 @@
 /* ========================= */
 
 .mins-info{
-    background:#C9A227;
+    background:#b09718d0;
     padding:18px;
     text-align:center;
 }
@@ -225,106 +224,160 @@
     margin:0;
 }
 
-/* ========================= */
-/* TABLET */
-/* ========================= */
+/* ===========================
+   TABLETS (992px y menos)
+=========================== */
+@media (max-width: 992px) {
 
-@media(max-width:1024px){
-
-    .ministerios-mins{
-        padding:40px 20px;
+    .ministerios-mins {
+        padding: 40px 25px;
     }
 
-    .ministerios-mins h1{
-        font-size:60px;
+    .ministerios-mins h1 {
+        font-size: 50px;
+        text-align: center;
     }
 
-    .ministerios-mins p{
-        font-size:22px;
+    .ministerios-mins p {
+        font-size: 18px;
+        line-height: 1.8;
+        text-align: center;
     }
 
-    .mins-contenedor{
-        flex:0 0 250px;
+    .content {
+        gap: 20px;
+        padding: 20px 50px 30px;
     }
 
-    .mins-contenedor img{
-        height:330px;
+    .mins-contenedor {
+        flex: 0 0 250px;
+        min-width: 250px;
     }
 
-    .btn-slider{
-        width:50px;
-        height:50px;
-        font-size:26px;
+    .mins-contenedor img {
+        height: 330px;
     }
 
-    .izquierda{
-        left:-15px;
+    .btn-slider {
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
     }
 
-    .derecha{
-        right:-15px;
+    .izquierda {
+        left: -10px;
     }
 
+    .derecha {
+        right: -10px;
+    }
 }
 
-/* ========================= */
-/* MÓVIL */
-/* ========================= */
 
-@media(max-width:768px){
+/* ===========================
+   CELULARES (768px y menos)
+=========================== */
+@media (max-width: 768px) {
 
-    .ministerios-mins{
-        padding:30px 15px;
+    .ministerios-mins {
+        padding: 30px 15px;
     }
 
-    .ministerios-mins h1{
-        font-size:40px;
+    .ministerios-mins h1 {
+        font-size: 36px;
+        text-align: center;
     }
 
-    .ministerios-mins p{
-        font-size:17px;
-        line-height:1.8;
-        text-align:justify;
+    .ministerios-mins p {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: center;
+        margin-bottom: 30px;
     }
 
-    .content{
-        gap:18px;
-        padding:15px 55px;
+    .content {
+        gap: 15px;
+        padding: 15px 45px 20px;
     }
 
-    .mins-contenedor{
-        flex:0 0 260px;
-        border-radius:30px;
+    .mins-contenedor {
+        flex: 0 0 240px;
+        min-width: 240px;
     }
 
-    .mins-contenedor img{
-        height:260px;
+    .mins-contenedor img {
+        height: 280px;
     }
 
-    .mins-info{
-        padding:15px;
+    .mins-info {
+        padding: 15px;
     }
 
-    .mins-info h3{
-        font-size:20px;
+    .mins-info h3 {
+        font-size: 20px;
     }
 
-    .mins-info p{
-        font-size:14px;
+    .mins-info p {
+        font-size: 14px;
     }
 
-    .btn-slider{
-        width:45px;
-        height:45px;
-        font-size:22px;
+    .btn-slider {
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
     }
 
-    .izquierda{
-        left:5px;
+    .izquierda {
+        left: 5px;
     }
 
-    .derecha{
-        right:5px;
+    .derecha {
+        right: 5px;
+    }
+}
+
+
+/* ===========================
+   CELULARES PEQUEÑOS (480px)
+=========================== */
+@media (max-width: 480px) {
+
+    .ministerios-mins {
+        padding: 25px 10px;
     }
 
+    .ministerios-mins h1 {
+        font-size: 30px;
+    }
+
+    .ministerios-mins p {
+        font-size: 15px;
+    }
+
+    .content {
+        padding: 10px 35px 20px;
+    }
+
+    .mins-contenedor {
+        flex: 0 0 210px;
+        min-width: 210px;
+    }
+
+    .mins-contenedor img {
+        height: 240px;
+    }
+
+    .mins-info h3 {
+        font-size: 18px;
+    }
+
+    .mins-info p {
+        font-size: 13px;
+    }
+
+    .btn-slider {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
 }

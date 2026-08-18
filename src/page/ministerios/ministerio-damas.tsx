@@ -4,7 +4,7 @@ const Damas = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Damas</h2>
 
             <p>El Ministerio de Damas de la Casa de Adoración Roca Firme es un espacio dedicado al crecimiento espiritual, la edificación y el fortalecimiento de las mujeres conforme a los principios de la Palabra de Dios. Nuestro propósito es formar mujeres de fe, con un carácter semejante al de Cristo, preparadas para servir a Dios, a sus familias y a la comunidad con amor y sabiduría.

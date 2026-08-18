@@ -2,7 +2,7 @@ const Consolidacion = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Consolidacion</h2>
 
             <p>El Ministerio de Consolidación de la Casa de Adoración Roca Firme tiene como propósito acompañar y fortalecer a cada persona que ha tomado la decisión de seguir a Cristo, ayudándoles a establecerse firmemente en su nueva vida de fe. Creemos que cada nuevo creyente necesita cuidado, guía y enseñanza para crecer de manera sólida en los caminos del Señor.</p>

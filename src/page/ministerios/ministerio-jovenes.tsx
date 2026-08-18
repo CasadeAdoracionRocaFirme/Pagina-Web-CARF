@@ -2,8 +2,8 @@ const Jovenes = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
-            <h2>Jovenes</h2>
+            <h1>Casa de Adoración Roca Firme</h1>
+            <h2>Jóvenes</h2>
 
             <p>El Ministerio de Jóvenes de la Casa de Adoración Roca Firme está enfocado en acompañar y formar a la nueva generación en su crecimiento espiritual, ayudándoles a establecer una relación personal y profunda con Dios. Nuestro propósito es levantar jóvenes firmes en la fe, con identidad en Cristo y con un carácter basado en los principios de la Palabra de Dios.
 

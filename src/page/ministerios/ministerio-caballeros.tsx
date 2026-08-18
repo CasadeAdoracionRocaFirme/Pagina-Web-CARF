@@ -2,7 +2,7 @@ const Caballeros = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Caballeros</h2>
 
             <p>El Ministerio de Caballeros de la Casa de Adoración Roca Firme tiene como propósito formar hombres íntegros, firmes en la fe y comprometidos con Dios, su familia y la iglesia. Buscamos levantar varones que reflejen el carácter de Cristo en su vida diaria, viviendo con responsabilidad, liderazgo y obediencia a la Palabra de Dios.

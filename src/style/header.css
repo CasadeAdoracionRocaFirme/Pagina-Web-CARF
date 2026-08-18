@@ -1,31 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gruppo&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Paprika&family=Playfair+Display:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Gruppo&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Paprika&family=Playfair+Display:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .header {
-    background-color: #C9A227;
-    max-height: 10vh;
-    height: 10vh;
+    background-color: #ffffff;
     display: flex;
-    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 70px;
     top: 0;
-    padding-left: 40px;
-    padding-right: 40px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     z-index: 1000;
     position: fixed;
-    width: 95%;
+    width: 100%;
+    gap: 45%;
+    align-items: center;
 }
 
 .header-ul, .header a{
     display: flex;
     gap: 20px;  
     list-style: none !important;  
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 100;
 }
+
+.header a:hover{
+    color: #b09718d0;
+} 
 
 .header li, .header a{
     list-style: none;
+    text-decoration: none;
+    font-weight: 300;
+}
+.header li:hover {
+    color: #b09718d0;
 }
 .siglas {
     width: 50px;
@@ -36,19 +44,25 @@
     align-items: center;
     border-radius: 50%;
 }
-
 .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
-    font-weight: 400;
+    color: rgb(0, 0, 0);
+    top: 0;
 }
-
+.logo p {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 200;
+}
+.logo span {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: #af9308d0;
+}
 .ministerios {
     position: relative;
     cursor: pointer;
-    border-bottom: 2px solid #ffffff;
 }
 
 .mins {
@@ -62,8 +76,8 @@
     min-width: 100px;
     box-shadow: 0 5px 15px rgba(0,0,0,.2);
     z-index: 1001;
-    color: #C9A227;
-    border: 1px solid #C9A227;
+    color: #b09718d0;
+    border: 1px solid #b09718d0;
     border-radius: 5px;
 }
 
@@ -74,6 +88,7 @@
 .list {
   white-space: nowrap;
   cursor: pointer;
+  font-weight: 300;
 }
 
 /* BOTÓN HAMBURGUESA */
@@ -81,106 +96,152 @@
     display:none;
     background:none;
     border:none;
-    color:#fff;
+    color:#000;
     font-size:35px;
     cursor:pointer;
 }
 
-/* ===================== */
-/* TABLET */
-/* ===================== */
+/* ===========================
+   TABLETS (992px y menos)
+=========================== */
+@media (max-width: 992px) {
 
-@media(max-width:1024px){
-
-    .header{
-        padding:0 20px;
+    .header {
+        padding: 15px 30px;
+        gap: 0;
+        justify-content: space-between;
     }
 
-    .header-ul{
-        gap:15px;
-        font-size:18px;
+    .logo span {
+        font-size: 18px;
     }
 
+    .logo p {
+        font-size: 14px;
+    }
+
+    .header-ul {
+        gap: 15px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
 }
 
-/* ===================== */
-/* MÓVIL */
-/* ===================== */
 
-@media(max-width:768px){
+/* ===========================
+   CELULARES (768px y menos)
+=========================== */
+@media (max-width: 768px) {
 
-    .header{
-        height:auto;
-        min-height:70px;
-        padding:15px 20px;
-        align-items:center;
-        position:fixed;
-        width:90%;
+    .header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        width: 100%;
+        gap: 0;
+        box-sizing: border-box;
     }
 
-    .menu-btn{
-        display:block;
+    .menu-btn {
+        display: block;
     }
 
-    .header-ul{
-        display:none;
-        position:absolute;
-        top:100%;
-        left:0;
+    .header-ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
 
-        width:100%;
-        background:#C9A227;
+        width: 100%;
+        background: #fff;
 
-        flex-direction:column;
-        align-items:center;
+        flex-direction: column;
+        align-items: flex-start;
 
-        gap:20px;
-        padding:20px 0;
+        padding: 20px;
+        gap: 18px;
 
-        box-shadow:0 8px 20px rgba(0,0,0,.25);
+        box-sizing: border-box;
+        box-shadow: 0 8px 20px rgba(0,0,0,.15);
     }
 
-    .header-ul.activo{
-        display:flex;
-
+    .header-ul.activo {
+        display: flex;
     }
 
-    .header li{
-        width:100%;
-        text-align: start;
-        cursor:pointer;
+    .header li {
+        width: 100%;
     }
 
-    .ministerios{
-        text-align: start;
-        border:none;
+    .header a {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .ministerios {
+        width: 100%;
         position: relative;
-        cursor: pointer;
     }
 
-.mins{
-    position: static;
-    width: 100%;
-    background: #fff;
-    box-shadow: none;
-    border: none;
-    border-radius: 8px;
-    margin-top: 10px;
-    padding: 0;
+    .mins {
+        position: static;
+        width: 100%;
+        margin-top: 10px;
 
-    max-height: 250px;   /* altura máxima */
-    overflow-y: auto;    /* aparece scroll */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: none;
+        background: #fafafa;
+
+        max-height: 250px;
+        overflow-y: auto;
+    }
+
+    .mins li {
+        padding: 12px 15px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .mins li:last-child {
+        border-bottom: none;
+    }
 }
 
-.mins li{
-    padding: 14px;
-    font-size: 16px;
-    color:#C9A227;
-    border-bottom:1px solid #eee;
-}
 
-.mins hr{
-    display:none;
-}
+/* ===========================
+   CELULARES PEQUEÑOS (480px)
+=========================== */
+@media (max-width: 480px) {
 
+    .header {
+        padding: 12px 15px;
+    }
+
+    .logo span {
+        font-size: 16px;
+    }
+
+    .logo p {
+        font-size: 12px;
+    }
+
+    .menu-btn {
+        font-size: 30px;
+    }
+
+    .header-ul {
+        padding: 15px;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+
+    .mins li {
+        font-size: 15px;
+        padding: 10px 12px;
+    }
 }

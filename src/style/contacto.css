@@ -5,21 +5,22 @@
 }
 
 .contacto h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: #C9A227;
+  color: #b09718d0;
+  text-align: center;
+}
+
+.contacto h3 {
+    text-align: center;
+    color: #b09718d0;
 }
 
 .contacto p {
     font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+    font-family: Georgia;
     color: black;
-    padding: 20px;
+    text-align: center;
 }
 
 .contenedor-contacto {
@@ -29,46 +30,39 @@
 }
 
 .contenedor-contacto form {
-    width: 30%;
-    border: 2px solid #C9A227;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+    width: 45%;
+    padding: 10px;
     justify-content: center;
-    gap: 40px;
 }
 
 .contenedor-contacto label {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #000000;
+    color: #b09718d0;
     font-family: "Poppins", sans-serif;
 }
 .contenedor-contacto input{
     width: 100%;
-    height: 30px;
-    border-radius: 12px;
-    border: 2px solid #C9A227;
+    height: 40px;
+    border: 1px solid #b09718d0;
 }
 .contenedor-contacto ::placeholder{
         font-size: 1.1rem;
     line-height: 1.8;
     color: #444;
-    font-family: "Poppins", sans-serif;
+    font-family: Georgia;
     padding: 20px;
 }
 .contenedor-contacto textarea {
     width: 100%;
     height: 80px;
-    border-radius: 12px;
-    border: 2px solid #C9A227;
+    border: 1px solid #b09718d0;
 }
 .contenedor-contacto button {
-    background-color: #C9A227;
+    background-color: #b09718d0;
+    width: 100%;
     border: none;
     height: 30px;
-    border-radius: 12px;
     cursor: pointer;
 }
 .contenedor-contacto button:hover {
@@ -76,12 +70,12 @@
 }
 
 .redes {
-    border: 2px solid #C9A227;
-    width: 60%;
+    width: 45%;
     text-align: center;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding: 10px;
 }
 .redes ul {
     display: flex;
@@ -89,99 +83,168 @@
     justify-content: space-around;
 
 }
+.cuentas {
+    display: flex;
+}
 .redes h2 {
     font-size: 25px;
-    color: #C9A227;
+    color: #b09718d0;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: 400;
     font-style: normal;
 }
 
-/* TABLET */
-@media (max-width: 1024px) {
+/* ===========================
+   TABLETS (992px y menos)
+=========================== */
+@media (max-width: 992px) {
+
+    .contacto {
+        padding: 80px 20px;
+    }
+
     .contacto h1 {
-        font-size: 60px;
-        text-align: center;
+        font-size: 48px;
+    }
+
+    .contacto h3 {
+        font-size: 22px;
     }
 
     .contacto p {
         font-size: 18px;
-        text-align: center;
-        padding: 20px;
+        padding: 0 20px;
+    }
+
+    .contenedor-contacto {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contenedor-contacto form,
+    .redes {
+        width: 80%;
+    }
+
+    .redes ul {
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .contenedor-contacto input,
+    .contenedor-contacto textarea,
+    .contenedor-contacto button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+/* ===========================
+   CELULARES (768px y menos)
+=========================== */
+@media (max-width: 768px) {
+
+    .contacto {
+        padding: 60px 15px;
+    }
+
+    .contacto h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .contacto h3 {
+        font-size: 20px;
+    }
+
+    .contacto p {
+        font-size: 16px;
+        padding: 0;
     }
 
     .contenedor-contacto {
         flex-direction: column;
         gap: 40px;
-        align-items: center;
     }
 
-    .contenedor-contacto form {
-        width: 70%;
-    }
-
+    .contenedor-contacto form,
     .redes {
-        width: 70%;
+        width: 100%;
+        padding: 0;
     }
 
-    .redes ul {
-        justify-content: center;
-        gap: 20px;
-    }
-}
-
-/* MÓVIL */
-@media (max-width: 768px) {
-    .contacto {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .contacto h1 {
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .contacto p {
-        font-size: 16px;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .contenedor-contacto {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .contenedor-contacto form {
-        width: 90%;
-        padding: 15px;
-        gap: 25px;
+    .contenedor-contacto label {
+        font-size: 1rem;
     }
 
     .contenedor-contacto input,
     .contenedor-contacto textarea {
         font-size: 16px;
+        box-sizing: border-box;
     }
 
+    .contenedor-contacto textarea {
+        height: 120px;
+    }
+
+    .contenedor-contacto button {
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .redes h2 {
+        font-size: 22px;
+    }
+
+    .redes ul {
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}
+
+
+/* ===========================
+   CELULARES PEQUEÑOS (480px)
+=========================== */
+@media (max-width: 480px) {
+
+    .contacto {
+        padding: 50px 15px;
+    }
+
+    .contacto h1 {
+        font-size: 30px;
+    }
+
+    .contacto h3 {
+        font-size: 18px;
+    }
+
+    .contacto p {
+        font-size: 15px;
+    }
+
+    .contenedor-contacto form,
     .redes {
-        width: 90%;
-        text-align: center;
+        width: 100%;
     }
 
     .redes ul {
         flex-direction: column;
         align-items: center;
-        gap: 15px;
-        padding: 0;
+        gap: 18px;
     }
 
     .redes h2 {
         font-size: 20px;
     }
 
-    .redes p {
-        font-size: 14px;
+    .contenedor-contacto button {
+        height: 42px;
     }
 }

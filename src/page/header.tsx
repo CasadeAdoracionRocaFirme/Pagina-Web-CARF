@@ -12,7 +12,11 @@ const Header = () => {
         <header className="header">
 
             <div className="logo">
-                <img height="65" src="/logo.png" alt="Logo" />
+                <a href="#Inicio">
+                <p><span>Casa de Adoración </span>
+                    Roca Firme
+                </p>
+                </a>
             </div>
 
             <button

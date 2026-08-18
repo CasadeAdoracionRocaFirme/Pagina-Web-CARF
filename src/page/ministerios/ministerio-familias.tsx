@@ -2,7 +2,7 @@ const Familias = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Familias</h2>
 
             <p>El Ministerio de Familias de la Casa de Adoración Roca Firme tiene como propósito fortalecer los hogares conforme a los principios de la Palabra de Dios, promoviendo la unidad, el amor y la restauración en cada familia. Creemos que la familia es una institución establecida por Dios y la base fundamental de una sociedad sana y firme en la fe.

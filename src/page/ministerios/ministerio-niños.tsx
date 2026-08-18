@@ -2,7 +2,7 @@ const Niños = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Niños</h2>
 
             <p>El Ministerio de Niños de la Casa de Adoración Roca Firme tiene como propósito sembrar en cada niño el amor por Dios desde sus primeros años, enseñándoles los principios de la Palabra de manera sencilla, dinámica y adaptada a su edad. Creemos que los niños son una parte fundamental del Reino de Dios y que en ellos hay un gran potencial para ser formados como futuros siervos fieles del Señor.</p>

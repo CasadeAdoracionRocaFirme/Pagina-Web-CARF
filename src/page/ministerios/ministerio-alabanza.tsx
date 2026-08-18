@@ -2,7 +2,7 @@ const Alabanza = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Alabanza</h2>
 
             <p>El Ministerio de Alabanza de la Casa de Adoración Roca Firme tiene como propósito exaltar y glorificar el nombre de Dios a través de la música y la adoración. Creemos que la alabanza prepara el corazón de la iglesia para recibir la Palabra de Dios y crea un ambiente donde el Espíritu Santo puede obrar con libertad. 

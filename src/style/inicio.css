@@ -1,9 +1,11 @@
 
 .contenido {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  color: white;
+    padding-top: 5vh;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    text-align: center;
 }
 
 
@@ -38,62 +40,76 @@
   z-index: 2;
 }
 
-.overlay h2 {
-    font-size: 55px;
-    color: #C9A227;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
 .overlay h1 {
     font-size: 80px;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 400;
   font-style: normal;
 }
 
 .overlay span {
-    border-bottom: 3px solid #C9A227;
+    color: #af9308d0;
 }
 
 .overlay p {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.overlay i {
     font-size: 30px;
-      font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+  font-family: "Dancing Script";
+    font-weight: 100;
+    font-style: normal; 
 }
 
 .botones {
     display: flex;
+    align-items: center;
+    padding: 5%;
+    justify-content: center;
     gap: 30px;
 }
 .botones a {
     text-decoration: none;
-    color: #fff;
-}
-.botones button {
-    width: 15%;
+    color: white;
+    width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
+    border: 1px solid white;
+}
+.botones a:hover {
     color: #fff;
-    background-color: #C9A227;
-    border-radius: 15px;
-    border: 0;
+    background-color: #b09718d0;
 }
 
 .horarios {
     display: flex;
+    background-color: #b09718d0;
+}
+.horario {
+    display: flex;
     list-style: none;
-    color: #000000;
+    color: #fff;
     font-size: 20px;
     font-weight: 300;
     justify-content: space-around;
-    border-bottom: 2px solid #C9A227;
+    width: 100%;
+    padding: 0px;
+}
+.horario li {
+    border-right: 1px solid white;
     text-align: center;
+    width: 100%;
+    /* border: 2px solid white; */
+    padding: 50px;
 }
 
 .horarios p {
@@ -102,76 +118,83 @@
     font-weight: 300;
     font-style: normal;
 }
-
-/* ===================== */
-/* TABLET */
-/* ===================== */
-
-@media (max-width: 1024px) {
+.name {
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* ===========================
+   TABLETS (992px y menos)
+=========================== */
+@media (max-width: 992px) {
 
     .contenido {
-        height: 80vh;
+        min-height: 90vh;
+        height: auto;
+        padding-top: 80px;
     }
 
     .overlay {
-        padding: 40px;
-        text-align: center;
+        padding: 40px 25px;
     }
 
     .overlay h1 {
-        font-size: 60px;
-    }
-
-    .overlay h2 {
-        font-size: 40px;
+        font-size: 58px;
+        line-height: 1.2;
     }
 
     .overlay p {
-        font-size: 22px;
+        font-size: 18px;
+        max-width: 700px;
+        margin: 20px auto;
+    }
+
+    .overlay i {
+        font-size: 26px;
     }
 
     .botones {
-        justify-content: center;
         flex-wrap: wrap;
+        gap: 20px;
     }
 
-    .botones button {
-        width: 180px;
-        height: 45px;
+    .botones a {
+        padding: 12px 35px;
         font-size: 18px;
     }
 
-    .horarios {
+    .horario {
         flex-wrap: wrap;
-        gap: 25px;
-        padding: 20px;
+        justify-content: center;
     }
 
-    .horarios span {
-        display: none;
+    .horario li {
+        width: 45%;
+        padding: 35px 20px;
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,.3);
     }
-
 }
 
-/* ===================== */
-/* MÓVIL */
-/* ===================== */
 
+/* ===========================
+   CELULARES (768px y menos)
+=========================== */
 @media (max-width: 768px) {
 
     .contenido {
         min-height: 100vh;
         height: auto;
+        padding-top: 70px;
     }
 
     .overlay {
+        min-height: calc(100vh - 70px);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 20px;
         text-align: center;
-        min-height: 100vh;
     }
 
     .overlay h1 {
@@ -179,91 +202,76 @@
         line-height: 1.2;
     }
 
-    .overlay h2 {
-        font-size: 28px;
+    .overlay p {
+        font-size: 16px;
+        margin: 20px 0;
     }
 
-    .overlay p {
-        font-size: 18px;
-        margin: 20px 0;
+    .overlay i {
+        font-size: 22px;
     }
 
     .botones {
         flex-direction: column;
-        align-items: center;
         width: 100%;
         gap: 15px;
     }
 
-    .botones button {
+    .botones a {
         width: 90%;
-        max-width: 300px;
-        height: 50px;
-        font-size: 18px;
-    }
-
-   /* ===================== */
-/* TABLET */
-/* ===================== */
-
-@media (max-width: 1024px) {
-
-    .horarios {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center; /* 🔥 clave */
-        align-items: stretch;
-        gap: 25px;
-        padding: 25px;
+        max-width: 320px;
+        padding: 14px 0;
+        font-size: 17px;
         text-align: center;
     }
 
-    .horarios li {
-        width: 45%;
-        min-width: 220px;
-        background: #fff;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,.1);
-    }
-
-    .horarios span {
-        display: none;
-    }
-}
-
-/* ===================== */
-/* MÓVIL */
-/* ===================== */
-
-@media (max-width: 768px) {
-
-    .horarios {
-        display: flex;
+    .horario {
         flex-direction: column;
-        align-items: center; /* 🔥 clave del centrado */
-        justify-content: center;
-        gap: 20px;
-        padding: 25px 15px;
-        text-align: center;
+        align-items: center;
     }
 
-    .horarios li {
+    .horario li {
         width: 90%;
-        max-width: 350px;
-        background: #fff;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 4px 10px rgba(0,0,0,.1);
-        text-align: center;
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        padding: 25px 20px;
     }
 
     .horarios p {
         font-size: 15px;
     }
-
-    .horarios span {
-        display: none;
-    }
 }
+
+
+/* ===========================
+   CELULARES PEQUEÑOS (480px)
+=========================== */
+@media (max-width: 480px) {
+
+    .overlay h1 {
+        font-size: 30px;
+    }
+
+    .overlay p {
+        font-size: 15px;
+    }
+
+    .overlay i {
+        font-size: 20px;
+    }
+
+    .botones a {
+        font-size: 16px;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .horario li {
+        width: 95%;
+        padding: 20px 15px;
+    }
+
+    .horarios p {
+        font-size: 14px;
+    }
 }

@@ -2,7 +2,7 @@ const Danza = () => {
     return (
         <main>
         <div className="ministerio">
-            <h1>Casa de Adoracion Roca Firme</h1>
+            <h1>Casa de Adoración Roca Firme</h1>
             <h2>Danza</h2>
 
             <p>El Ministerio de Danza de la Casa de Adoración Roca Firme tiene como propósito adorar a Dios a través del movimiento, expresando con el cuerpo la reverencia, gozo y entrega hacia el Señor. Creemos que la danza es una forma de adoración que exalta a Dios y acompaña la ministración de Su presencia en medio de la iglesia.

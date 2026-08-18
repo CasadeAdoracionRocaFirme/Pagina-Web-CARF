@@ -30,14 +30,15 @@ const Contacto = () => {
 
     return (
         <main className='contacto'>
-            <h1>~ Contacto ~</h1>
-
-            <p>¿Estas solicitando oración?</p>
+            <h3>CONTACTO</h3>
+            <p>───────── ✧ ─────────</p>
+            <h1>¿Estás solicitando oración?</h1>
+            
 
             <p>
-                Queremos saber de ti ponte en contacto con nosotros
+                Queremos saber de ti, ponte en contacto con nosotros.
                 <br />
-                <span>O acercate a nuestro lugar de Reunión</span>
+                <span>O acércate a nuestro lugar de reunión.</span>
             </p>
 
             <div className='contenedor-contacto'>
@@ -74,7 +75,7 @@ const Contacto = () => {
                     </label>
 
                     <label htmlFor="peticion">
-                        Dejanos saber tu petición
+                        Déjanos saber tu petición
                         <br />
                         <textarea
                             id="peticion"
@@ -111,7 +112,13 @@ const Contacto = () => {
 
                     <p>
                         Tu aporte es una semilla que nos permite seguir expandiendo el Reino de Dios. Cada donación, sin importar su tamaño, contribuye al crecimiento del ministerio y al cumplimiento de la misión que Dios nos ha encomendado.
+                    </p>
                         <br />
+                        <div className='cuentas'>
+                            <p><strong>Cuenta de ahorros: </strong>Daviplata</p>
+                            <p><strong>Cuenta corriente: </strong>Bancolombia</p>
+                            <p><strong>Nequi: </strong>300 000 0000</p>
+                        </div>
                         <hr />
                         <i>
                             <span>
@@ -120,8 +127,7 @@ const Contacto = () => {
                                 <strong>2 Corintios 9:7</strong>
                             </span>
                         </i>
-                    </p>
-
+                    
                 </div>
 
             </div>
