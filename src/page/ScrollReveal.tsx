@@ -11,10 +11,11 @@ const ScrollReveal = ({ children, className = '' }: ScrollRevealProps) => {
 
   useEffect(() => {
     const element = revealRef.current
-
     if (!element) return
 
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const reduceMotion = window.matchMedia(
+      '(prefers-reduced-motion: reduce)'
+    ).matches
 
     if (reduceMotion) {
       setVisible(true)
@@ -25,21 +26,28 @@ const ScrollReveal = ({ children, className = '' }: ScrollRevealProps) => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setVisible(true)
-          observer.disconnect()
+          observer.unobserve(element)
         }
       },
-      { threshold: 0.10, rootMargin: '0px 0px -10% 0px' },
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px',
+      }
     )
 
     observer.observe(element)
 
-    return () => observer.disconnect()
+    return () => {
+      observer.disconnect()
+    }
   }, [])
 
   return (
     <div
       ref={revealRef}
-      className={`scroll-reveal ${visible ? 'scroll-reveal--visible' : ''} ${className}`.trim()}
+      className={`scroll-reveal ${
+        visible ? 'scroll-reveal--visible' : ''
+      } ${className}`.trim()}
     >
       {children}
     </div>
