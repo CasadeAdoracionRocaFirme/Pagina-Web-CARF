@@ -1,20 +1,24 @@
 
 .contenido {
-    padding-top: 5vh;
     position: relative;
-    height: 100vh;
+    min-height: 100svh;
+    height: 100svh;
     overflow: hidden;
     color: white;
     text-align: center;
+    display: grid;
+    place-items: center;
+    isolation: isolate;
 }
 
 
 .video-bg {
   position: absolute;
   inset: 0;
-  width: 100%;
+    width: 100vw;
   height: 100%;
   object-fit: cover;
+    object-position: center;
 
   z-index: 0;
 }
@@ -23,7 +27,9 @@
 .overlay {
   position: relative;
   z-index: 1;
-  padding: 20px;
+    width: min(100% - 32px, 980px);
+    padding: clamp(96px, 13vh, 140px) 16px 48px;
+    box-sizing: border-box;
 }
 
 
@@ -41,7 +47,9 @@
 }
 
 .overlay h1 {
-    font-size: 80px;
+    margin: 18px 0;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1.12;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -61,6 +69,8 @@
 
 .overlay i {
     font-size: 30px;
+    display: block;
+    line-height: 1.4;
   font-family: "Dancing Script";
     font-weight: 100;
     font-style: normal; 
@@ -76,9 +86,9 @@
 .botones a {
     text-decoration: none;
     color: white;
-    width: fit-content;
-    padding-left: 40px;
-    padding-right: 40px;
+    min-width: 150px;
+    padding: 13px 24px;
+    border-radius: 2px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -128,13 +138,12 @@
 @media (max-width: 992px) {
 
     .contenido {
-        min-height: 90vh;
-        height: auto;
-        padding-top: 80px;
+        min-height: 100svh;
+        height: 100svh;
     }
 
     .overlay {
-        padding: 40px 25px;
+        padding: 100px 25px 40px;
     }
 
     .overlay h1 {
@@ -182,24 +191,18 @@
 @media (max-width: 768px) {
 
     .contenido {
-        min-height: 100vh;
-        height: auto;
-        padding-top: 70px;
+        min-height: 100svh;
+        height: 100svh;
     }
 
     .overlay {
-        min-height: calc(100vh - 70px);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
+        width: min(100% - 24px, 520px);
+        padding: 92px 12px 32px;
         text-align: center;
     }
 
     .overlay h1 {
-        font-size: 38px;
-        line-height: 1.2;
+        font-size: clamp(2.25rem, 10vw, 3rem);
     }
 
     .overlay p {
@@ -208,19 +211,20 @@
     }
 
     .overlay i {
-        font-size: 22px;
+        font-size: clamp(1.25rem, 5vw, 1.5rem);
     }
 
     .botones {
         flex-direction: column;
         width: 100%;
         gap: 15px;
+        padding: 8% 0 0;
     }
 
     .botones a {
-        width: 90%;
-        max-width: 320px;
-        padding: 14px 0;
+        width: min(100%, 320px);
+        box-sizing: border-box;
+        padding: 14px 20px;
         font-size: 17px;
         text-align: center;
     }
@@ -248,8 +252,12 @@
 =========================== */
 @media (max-width: 480px) {
 
+    .video-bg {
+        object-position: 58% center;
+    }
+
     .overlay h1 {
-        font-size: 30px;
+        font-size: clamp(2rem, 10vw, 2.5rem);
     }
 
     .overlay p {

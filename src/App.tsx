@@ -22,6 +22,7 @@ import Protocolo from './page/ministerios/ministerio-protocolo'
 import Servidores from './page/ministerios/ministerio-servidores'
 import ScrollToTop from './scrollToTop'
 import ModalBienvenida from './page/ModalBienvenida'
+import ScrollReveal from './page/ScrollReveal'
 
 
 function Home() {
@@ -34,19 +35,29 @@ function Home() {
     <section id='Inicio'>
       <Inicio></Inicio>
     </section>
-    <section id='Nosotros'>
-      <Nosotros></Nosotros>
-    </section>
-    <section id='Ministerios'>
-      <Ministerios></Ministerios>
-    </section>
-    <section id='Lideres'>
-      <Lideres></Lideres>
-    </section>
-    <section id='Contacto'>
-      <Contacto></Contacto>
-    </section>
-    <Footer></Footer>
+    <ScrollReveal>
+      <section id='Nosotros'>
+        <Nosotros></Nosotros>
+      </section>
+    </ScrollReveal>
+    <ScrollReveal>
+      <section id='Ministerios'>
+        <Ministerios></Ministerios>
+      </section>
+    </ScrollReveal>
+    <ScrollReveal>
+      <section id='Lideres'>
+        <Lideres></Lideres>
+      </section>
+    </ScrollReveal>
+    <ScrollReveal>
+      <section id='Contacto'>
+        <Contacto></Contacto>
+      </section>
+    </ScrollReveal>
+    <ScrollReveal>
+      <Footer></Footer>
+    </ScrollReveal>
     </>
   )
 }
